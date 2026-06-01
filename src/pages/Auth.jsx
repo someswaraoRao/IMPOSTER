@@ -150,7 +150,7 @@ const Auth = memo(function Auth() {
               />
             </div>
 
-            <button type="submit" className="btn btn-primary" disabled={loading} style={{ marginTop: '12px', padding: '16px 20px', fontSize: 15 }}>
+            <button type="submit" className="btn btn-glass" disabled={loading} style={{ marginTop: '12px', padding: '16px 20px', fontSize: 15 }}>
               {loading ? (
                 <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8 }}>
                   <span className="dots"><span/><span/><span/></span> Processing
